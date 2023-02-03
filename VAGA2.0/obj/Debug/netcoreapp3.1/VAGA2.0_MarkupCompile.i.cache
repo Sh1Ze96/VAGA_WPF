@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\App.xaml
-11407045341
+61263268714
 
-5-1684292198
+10-1955493905
 192-1533232326
-MainWindow.xaml;
+Com.xaml;MainWindow.xaml;Page1.xaml;Page2.xaml;Page3.xaml;Page4.xaml;
 
 True
 

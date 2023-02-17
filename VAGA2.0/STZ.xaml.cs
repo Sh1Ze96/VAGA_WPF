@@ -8,17 +8,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace VAGA2._0
 {
     /// <summary>
-    /// Логика взаимодействия для Page4.xaml
+    /// Логика взаимодействия для STZ.xaml
     /// </summary>
-    public partial class Page4 : Page
+    public partial class STZ : Window
     {
-        public Page4()
+        public STZ()
         {
             InitializeComponent();
         }

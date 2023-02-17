@@ -8,17 +8,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace VAGA2._0
 {
     /// <summary>
-    /// Логика взаимодействия для Page3.xaml
+    /// Логика взаимодействия для SIZ.xaml
     /// </summary>
-    public partial class Page3 : Page
+    public partial class SIZ : Window
     {
-        public Page3()
+        public SIZ()
         {
             InitializeComponent();
         }

@@ -27,12 +27,51 @@ namespace VAGA2._0
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigated.Navigate(new Com());
-
+            var STZ = new STZ();
+            STZ.Show();
+            this.Close();
         }
-        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
-        {
 
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            var SIZ = new SIZ();
+            SIZ.Show();
+            this.Close();
+        }
+
+        private void Button_Click3(object sender, RoutedEventArgs e)
+        {
+            var SIZ = new SIZ();
+            SIZ.Show();
+            this.Close();
+        }
+
+        private void Button_Click4(object sender, RoutedEventArgs e)
+        {
+            var Win = new Win();
+            Win.Show();
+            this.Close();
+        }
+
+        private void Button_Click5(object sender, RoutedEventArgs e)
+        {
+            var Win2 = new Win2();
+            Win2.Show();
+            this.Close();
+        }
+
+        private void Button_Click6(object sender, RoutedEventArgs e)
+        {
+            var Win3 = new Win3();
+            Win3.Show();
+            this.Close();
+        }
+
+        private void Button_Click7(object sender, RoutedEventArgs e)
+        {
+            var Win4 = new Win4();
+            Win4.Show();
+            this.Close();
         }
     }
 }

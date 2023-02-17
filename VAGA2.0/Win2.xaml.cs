@@ -8,17 +8,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace VAGA2._0
 {
     /// <summary>
-    /// Логика взаимодействия для Page2.xaml
+    /// Логика взаимодействия для Win2.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class Win2 : Window
     {
-        public Page2()
+        public Win2()
         {
             InitializeComponent();
         }

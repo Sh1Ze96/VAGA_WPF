@@ -7,39 +7,45 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Com.xaml.cs">
+    <Compile Update="SIZ.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page1.xaml.cs">
+    <Compile Update="STZ.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page2.xaml.cs">
+    <Compile Update="Win.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page3.xaml.cs">
+    <Compile Update="Win2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page4.xaml.cs">
+    <Compile Update="Win3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Win4.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Com.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page1.xaml">
+    <Page Update="SIZ.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page2.xaml">
+    <Page Update="STZ.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page3.xaml">
+    <Page Update="Win.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page4.xaml">
+    <Page Update="Win2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Win3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Win4.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

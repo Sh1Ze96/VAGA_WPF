@@ -41,22 +41,22 @@ namespace VAGA2._0
 
         private void Button_Click3(object sender, RoutedEventArgs e)
         {
-            var SIZ = new SIZ();
-            SIZ.Show();
+            var Win2 = new Win2();
+            Win2.Show();
             this.Close();
         }
 
         private void Button_Click4(object sender, RoutedEventArgs e)
         {
-            var Win = new Win();
-            Win.Show();
+            var Win3 = new Win3();
+            Win3.Show();
             this.Close();
         }
 
         private void Button_Click5(object sender, RoutedEventArgs e)
         {
-            var Win2 = new Win2();
-            Win2.Show();
+            var Win3 = new Win3();
+            Win3.Show();
             this.Close();
         }
 

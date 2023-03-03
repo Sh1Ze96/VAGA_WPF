@@ -7,31 +7,26 @@
         mc:Ignorable="d"
         Title="STZ" Height="450" Width="800">
     <Grid>
-        <TextBox ></TextBox>
-        <StackPanel>
-            <TextBlock  Text="Описаная кампания" Foreground="#FFF300FF" Margin="10" TextWrapping="Wrap" Grid.IsSharedSizeScope="True" ScrollViewer.HorizontalScrollBarVisibility="Auto" MinHeight="201" ScrollViewer.VerticalScrollBarVisibility="Auto" Padding="0,0,0,2" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" >
-                <TextBlock.Background>
-                    <RadialGradientBrush>
-                        <GradientStop Color="#FF278F93" Offset="0.945"/>
-                        <GradientStop Color="#FF20C5CD" Offset="0.647"/>
-                    </RadialGradientBrush>
-                </TextBlock.Background>
-            </TextBlock>
-        </StackPanel>
-        <Image  x:Name="pack___siteoforigin_____tokio_102_jpg" Margin="0,1,0,1" Stretch="Fill" Source="C:\Users\Администратор\source\repos\VAGA2.0\tokio-102.jpg" Grid.Column="2" Grid.Row="1"/>
-
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="267*"></ColumnDefinition>
-            <ColumnDefinition Width="166*"></ColumnDefinition>
-            <ColumnDefinition Width="367*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-
         <Grid.RowDefinitions>
-            <RowDefinition Height="209*"></RowDefinition>
-            <RowDefinition Height="225*">
-            </RowDefinition>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="311*"/>
+            <RowDefinition Height="53*"/>
         </Grid.RowDefinitions>
+
+        <TextBlock FontSize="16" Foreground="White" Margin="4,34,12,12" Grid.RowSpan="2" TextWrapping="Wrap"><Run Text="Компания Vaga производит машины марки TOYOTA, а именно спорткары этого бренда. Мы уже произвели более тысячи автомобилей таких как Toyota Supra, Toyota Celica и Toyota Mark II. В течение последних нескольких дней в наших мастерских производят еще двух автомобилей этой марки.
+В конце прошлого месяца мы получили заказ на производство Toyota Mark X в кузове GSR. Это был один из первых автомобилей, который мы сделали с новым двигателем VVT-i. По мере развития нашего бизнеса мы получаем все больше заказов на такие машины.
+Toyota Mark X с двигателем VVTL-i "/></TextBlock>
+        <TextBlock FontSize="25" Foreground="Aquamarine" Margin="250,2,-20,-2" Grid.RowSpan="3"><Run Text="Информация о компании"/></TextBlock>
+        <Image Stretch="Uniform" Source="Image1.png" Margin="422,108,38,0" Grid.Row="1"/>
+        <Image Stretch="Uniform" Source="/car.jpg" Margin="33,113,427,10" Grid.Row="1"/>
+        <Button Grid.Row="2" FontSize="15" Content="Домой" Margin="334,3,346,-1" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3CB23" Offset="0.08"/>
+                    <GradientStop Color="#FF66AE1F" Offset="0.973"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

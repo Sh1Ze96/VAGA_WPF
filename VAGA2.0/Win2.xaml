@@ -6,12 +6,41 @@
         xmlns:local="clr-namespace:VAGA2._0"
         mc:Ignorable="d"
         Title="Win2" Height="450" Width="800">
-    <Grid>
+    <Grid Height="434" VerticalAlignment="Center" HorizontalAlignment="Right" Width="800" RenderTransformOrigin="0.504,0.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="219*"/>
+            <RowDefinition Height="215*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="377*"/>
+            <ColumnDefinition Width="423*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black" Offset="0.07"/>
                 <GradientStop Color="#FF632CB2" Offset="0.887"/>
             </LinearGradientBrush>
         </Grid.Background>
+
+        <Image Stretch="Uniform" Source="434007-vms-PMP-5.png" Margin="185,0,-194,4" Grid.ColumnSpan="2"/>
+
+        <MediaElement Name="VideoControl" 
+              Source="C:\Users\Администратор\source\repos\VAGA2.0\Video.mp4" Margin="-25,0,0,4" >
+        </MediaElement>
+
+        <TextBlock FontSize="16" Foreground="White" Margin="8,1,8,165" TextWrapping="Wrap" Grid.Row="1">
+            <Run Text="Видео материал, о работе нейроной системы с опасными зонами на производстве."/>
+        </TextBlock>
+        <TextBlock FontSize="16" Foreground="White" Margin="169,0,167,166" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">
+            План цеха.
+        </TextBlock>
+        <Button FontSize="15" Content="Домой" Margin="310,156,357,10" Click="Button_Click" Grid.Row="1" Grid.ColumnSpan="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3CB23" Offset="0.08"/>
+                    <GradientStop Color="#FF66AE1F" Offset="0.973"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

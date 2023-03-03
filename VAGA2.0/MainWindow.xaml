@@ -18,7 +18,7 @@
             <RowDefinition Height="59*"></RowDefinition>
             <RowDefinition Height="290*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Image x:Name="pack___siteoforigin_____tokio_102_jpg" Grid.Row="2" Margin="1,5,0,1" Stretch="Fill" Source="C:\Users\Администратор\source\repos\VAGA2.0\tokio-102.jpg"/>
+        <Image x:Name="pack___siteoforigin_____tokio_102_jpg" Grid.Row="2" Margin="1,5,0,1" Stretch="Fill" Source="tokio-102.jpg"/>
         <Button Grid.Row="0" FontSize="15" Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Основы СТЗ" Margin="115,10,0,0" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -60,7 +60,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Image x:Name="pack___siteoforigin_____pngwing_com_png" Margin="256,82,4,-6" Grid.Row="2" Stretch="Fill" Source="C:\Users\Администратор\source\repos\VAGA2.0\pngwing.com.png"/>
+        <Image x:Name="pack___siteoforigin_____pngwing_com_png" Margin="256,82,4,-6" Grid.Row="2" Stretch="Fill" Source="pngwing.com.png"/>
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="716">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -79,7 +79,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Grid.Row="0" FontSize="15" Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Цветовая фильтрация" Margin="412,64,0,0" Click="Button_Click7">
+        <Button Grid.Row="0" FontSize="15" Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Контроль качества" Margin="412,64,0,0" Click="Button_Click7">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC3CB23" Offset="0.08"/>
@@ -87,7 +87,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Grid.Row="0" FontSize="15" Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Цветовая фильтрация" Margin="560,64,0,0" Click="Button_Click7">
+        <Button Grid.Row="0" FontSize="15" Width="120" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Сборка по штрих-коду" Margin="560,64,0,0" Click="Button_Click7">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC3CB23" Offset="0.08"/>

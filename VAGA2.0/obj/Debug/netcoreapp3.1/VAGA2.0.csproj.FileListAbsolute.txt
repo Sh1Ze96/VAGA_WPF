@@ -4,7 +4,6 @@ C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\bin\Debug\netco
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\bin\Debug\netcoreapp3.1\VAGA2.0.runtimeconfig.dev.json
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\bin\Debug\netcoreapp3.1\VAGA2.0.dll
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\bin\Debug\netcoreapp3.1\VAGA2.0.pdb
-C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\VAGA2.0.csproj.AssemblyReference.cache
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\VAGA2.0_MarkupCompile.cache
@@ -30,3 +29,4 @@ C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netco
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\Win2.baml
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\Win3.baml
 C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\Win4.baml
+C:\Users\Администратор\source\repos\VAGA2.0\VAGA2.0\obj\Debug\netcoreapp3.1\VAGA2.0.csproj.AssemblyReference.cache

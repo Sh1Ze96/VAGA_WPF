@@ -7,4 +7,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="434007-vms-PMP-5.png" />
+    <None Remove="car.jpg" />
+    <None Remove="Image1.png" />
+    <None Remove="pngwing.com.png" />
+    <None Remove="tokio-102.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="434007-vms-PMP-5.png" />
+    <Resource Include="car.jpg" />
+    <Resource Include="Image1.png" />
+    <Resource Include="pngwing.com.png" />
+    <Resource Include="tokio-102.jpg" />
+  </ItemGroup>
+
 </Project>
